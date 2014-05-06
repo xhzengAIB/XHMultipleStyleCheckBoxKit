@@ -21,6 +21,9 @@
 		740FA2C31918E5B7001C6A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740FA2C11918E5B7001C6A75 /* InfoPlist.strings */; };
 		740FA2C51918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA2C41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m */; };
 		740FA3501918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA34F1918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework */; };
+		740FA36319190F0C001C6A75 /* checked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA36119190F0C001C6A75 /* checked_checkbox@2x.png */; };
+		740FA36419190F0C001C6A75 /* unchecked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA36219190F0C001C6A75 /* unchecked_checkbox@2x.png */; };
+		740FA36B19191404001C6A75 /* meIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA36A19191404001C6A75 /* meIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		740FA2C21918E5B7001C6A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		740FA2C41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStyleCheckBoxKitExampleTests.m; sourceTree = "<group>"; };
 		740FA34F1918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipleStyleCheckBoxKit.framework; path = "../../../../../../../Users/qtone-1/Library/Developer/Xcode/DerivedData/MultipleStyleCheckBoxKitWorkspace-cvqmjyvbojhdzidrljcxpgpedesr/Build/Products/Release-iphoneos/MultipleStyleCheckBoxKit.framework"; sourceTree = "<group>"; };
+		740FA36119190F0C001C6A75 /* checked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked_checkbox@2x.png"; sourceTree = "<group>"; };
+		740FA36219190F0C001C6A75 /* unchecked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked_checkbox@2x.png"; sourceTree = "<group>"; };
+		740FA36A19191404001C6A75 /* meIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meIcon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 		740FA29D1918E5B7001C6A75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				740FA36019190F0C001C6A75 /* Resources */,
 				740FA29E1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample-Info.plist */,
 				740FA29F1918E5B7001C6A75 /* InfoPlist.strings */,
 				740FA2A21918E5B7001C6A75 /* main.m */,
@@ -159,6 +166,16 @@
 				740FA34F1918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		740FA36019190F0C001C6A75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				740FA36A19191404001C6A75 /* meIcon@2x.png */,
+				740FA36119190F0C001C6A75 /* checked_checkbox@2x.png */,
+				740FA36219190F0C001C6A75 /* unchecked_checkbox@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				740FA2B21918E5B7001C6A75 /* Images.xcassets in Resources */,
+				740FA36B19191404001C6A75 /* meIcon@2x.png in Resources */,
 				740FA2A11918E5B7001C6A75 /* InfoPlist.strings in Resources */,
+				740FA36419190F0C001C6A75 /* unchecked_checkbox@2x.png in Resources */,
+				740FA36319190F0C001C6A75 /* checked_checkbox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +406,7 @@
 				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Prefix.pch";
 				INFOPLIST_FILE = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,6 +425,7 @@
 				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Prefix.pch";
 				INFOPLIST_FILE = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,6 +490,7 @@
 				740FA2CA1918E5B7001C6A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		740FA2CB1918E5B7001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +499,7 @@
 				740FA2CD1918E5B7001C6A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

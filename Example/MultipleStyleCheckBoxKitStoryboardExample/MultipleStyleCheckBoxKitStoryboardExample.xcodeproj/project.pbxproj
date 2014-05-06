@@ -23,6 +23,8 @@
 		740FA3071918E5D0001C6A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740FA3051918E5D0001C6A75 /* InfoPlist.strings */; };
 		740FA3091918E5D0001C6A75 /* MultipleStyleCheckBoxKitStoryboardExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA3081918E5D0001C6A75 /* MultipleStyleCheckBoxKitStoryboardExampleTests.m */; };
 		740FA3521918E6BD001C6A75 /* MultipleStyleCheckBoxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA3511918E6BD001C6A75 /* MultipleStyleCheckBoxKit.framework */; };
+		740FA36819190F14001C6A75 /* checked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA36619190F14001C6A75 /* checked_checkbox@2x.png */; };
+		740FA36919190F14001C6A75 /* unchecked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA36719190F14001C6A75 /* unchecked_checkbox@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		740FA3061918E5D0001C6A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		740FA3081918E5D0001C6A75 /* MultipleStyleCheckBoxKitStoryboardExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStyleCheckBoxKitStoryboardExampleTests.m; sourceTree = "<group>"; };
 		740FA3511918E6BD001C6A75 /* MultipleStyleCheckBoxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipleStyleCheckBoxKit.framework; path = "../../../../../../../Users/qtone-1/Library/Developer/Xcode/DerivedData/MultipleStyleCheckBoxKitWorkspace-cvqmjyvbojhdzidrljcxpgpedesr/Build/Products/Release-iphoneos/MultipleStyleCheckBoxKit.framework"; sourceTree = "<group>"; };
+		740FA36619190F14001C6A75 /* checked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked_checkbox@2x.png"; sourceTree = "<group>"; };
+		740FA36719190F14001C6A75 /* unchecked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked_checkbox@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 		740FA2E11918E5CF001C6A75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				740FA36519190F14001C6A75 /* Resources */,
 				740FA2E21918E5CF001C6A75 /* MultipleStyleCheckBoxKitStoryboardExample-Info.plist */,
 				740FA2E31918E5CF001C6A75 /* InfoPlist.strings */,
 				740FA2E61918E5CF001C6A75 /* main.m */,
@@ -165,6 +170,15 @@
 				740FA3511918E6BD001C6A75 /* MultipleStyleCheckBoxKit.framework */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		740FA36519190F14001C6A75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				740FA36619190F14001C6A75 /* checked_checkbox@2x.png */,
+				740FA36719190F14001C6A75 /* unchecked_checkbox@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740FA36819190F14001C6A75 /* checked_checkbox@2x.png in Resources */,
 				740FA2F11918E5CF001C6A75 /* Main_iPad.storyboard in Resources */,
 				740FA2F61918E5CF001C6A75 /* Images.xcassets in Resources */,
 				740FA2EE1918E5CF001C6A75 /* Main_iPhone.storyboard in Resources */,
+				740FA36919190F14001C6A75 /* unchecked_checkbox@2x.png in Resources */,
 				740FA2E51918E5CF001C6A75 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +508,7 @@
 				740FA30E1918E5D0001C6A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		740FA30F1918E5D0001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitStoryboardExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +517,7 @@
 				740FA3111918E5D0001C6A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

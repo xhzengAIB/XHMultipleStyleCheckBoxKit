@@ -14,8 +14,14 @@
 		740FA3371918E608001C6A75 /* MultipleStyleCheckBoxKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 740FA31D1918E607001C6A75 /* MultipleStyleCheckBoxKit.framework */; };
 		740FA33D1918E608001C6A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740FA33B1918E608001C6A75 /* InfoPlist.strings */; };
 		740FA33F1918E608001C6A75 /* MultipleStyleCheckBoxKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA33E1918E608001C6A75 /* MultipleStyleCheckBoxKitTests.m */; };
-		740FA34B1918E655001C6A75 /* MultipleStyleCheckBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 740FA3491918E655001C6A75 /* MultipleStyleCheckBoxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		740FA34C1918E655001C6A75 /* MultipleStyleCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA34A1918E655001C6A75 /* MultipleStyleCheckBoxView.m */; };
+		740FA34B1918E655001C6A75 /* XHMultipleStyleCheckBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 740FA3491918E655001C6A75 /* XHMultipleStyleCheckBoxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740FA34C1918E655001C6A75 /* XHMultipleStyleCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA34A1918E655001C6A75 /* XHMultipleStyleCheckBoxView.m */; };
+		740FA3551918EC13001C6A75 /* XHCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 740FA3531918EC13001C6A75 /* XHCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740FA3561918EC13001C6A75 /* XHCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA3541918EC13001C6A75 /* XHCheckBox.m */; };
+		740FA3591918F31D001C6A75 /* NSString+XHTextSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 740FA3571918F31D001C6A75 /* NSString+XHTextSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740FA35A1918F31D001C6A75 /* NSString+XHTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA3581918F31D001C6A75 /* NSString+XHTextSize.m */; };
+		740FA35E191903E5001C6A75 /* unchecked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA35C191903E5001C6A75 /* unchecked_checkbox@2x.png */; };
+		740FA35F191903E5001C6A75 /* checked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740FA35D191903E5001C6A75 /* checked_checkbox@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +46,14 @@
 		740FA33A1918E608001C6A75 /* MultipleStyleCheckBoxKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleStyleCheckBoxKitTests-Info.plist"; sourceTree = "<group>"; };
 		740FA33C1918E608001C6A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		740FA33E1918E608001C6A75 /* MultipleStyleCheckBoxKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStyleCheckBoxKitTests.m; sourceTree = "<group>"; };
-		740FA3491918E655001C6A75 /* MultipleStyleCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleStyleCheckBoxView.h; sourceTree = "<group>"; };
-		740FA34A1918E655001C6A75 /* MultipleStyleCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleStyleCheckBoxView.m; sourceTree = "<group>"; };
+		740FA3491918E655001C6A75 /* XHMultipleStyleCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMultipleStyleCheckBoxView.h; sourceTree = "<group>"; };
+		740FA34A1918E655001C6A75 /* XHMultipleStyleCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMultipleStyleCheckBoxView.m; sourceTree = "<group>"; };
+		740FA3531918EC13001C6A75 /* XHCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCheckBox.h; sourceTree = "<group>"; };
+		740FA3541918EC13001C6A75 /* XHCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCheckBox.m; sourceTree = "<group>"; };
+		740FA3571918F31D001C6A75 /* NSString+XHTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XHTextSize.h"; sourceTree = "<group>"; };
+		740FA3581918F31D001C6A75 /* NSString+XHTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XHTextSize.m"; sourceTree = "<group>"; };
+		740FA35C191903E5001C6A75 /* unchecked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked_checkbox@2x.png"; sourceTree = "<group>"; };
+		740FA35D191903E5001C6A75 /* checked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked_checkbox@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 		740FA31F1918E607001C6A75 /* MultipleStyleCheckBoxKit */ = {
 			isa = PBXGroup;
 			children = (
+				740FA35B191903DD001C6A75 /* Resources */,
 				740FA3481918E637001C6A75 /* Classes */,
 				740FA3201918E607001C6A75 /* Supporting Files */,
 			);
@@ -134,11 +147,25 @@
 		740FA3481918E637001C6A75 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				740FA3491918E655001C6A75 /* MultipleStyleCheckBoxView.h */,
-				740FA34A1918E655001C6A75 /* MultipleStyleCheckBoxView.m */,
+				740FA3491918E655001C6A75 /* XHMultipleStyleCheckBoxView.h */,
+				740FA34A1918E655001C6A75 /* XHMultipleStyleCheckBoxView.m */,
+				740FA3531918EC13001C6A75 /* XHCheckBox.h */,
+				740FA3541918EC13001C6A75 /* XHCheckBox.m */,
+				740FA3571918F31D001C6A75 /* NSString+XHTextSize.h */,
+				740FA3581918F31D001C6A75 /* NSString+XHTextSize.m */,
 			);
 			name = Classes;
 			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		740FA35B191903DD001C6A75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				740FA35C191903E5001C6A75 /* unchecked_checkbox@2x.png */,
+				740FA35D191903E5001C6A75 /* checked_checkbox@2x.png */,
+			);
+			name = Resources;
+			path = ../../Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +175,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740FA34B1918E655001C6A75 /* MultipleStyleCheckBoxView.h in Headers */,
+				740FA34B1918E655001C6A75 /* XHMultipleStyleCheckBoxView.h in Headers */,
+				740FA3591918F31D001C6A75 /* NSString+XHTextSize.h in Headers */,
+				740FA3551918EC13001C6A75 /* XHCheckBox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740FA35E191903E5001C6A75 /* unchecked_checkbox@2x.png in Resources */,
 				740FA3241918E607001C6A75 /* InfoPlist.strings in Resources */,
+				740FA35F191903E5001C6A75 /* checked_checkbox@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740FA34C1918E655001C6A75 /* MultipleStyleCheckBoxView.m in Sources */,
+				740FA3561918EC13001C6A75 /* XHCheckBox.m in Sources */,
+				740FA35A1918F31D001C6A75 /* NSString+XHTextSize.m in Sources */,
+				740FA34C1918E655001C6A75 /* XHMultipleStyleCheckBoxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +528,7 @@
 				740FA3441918E608001C6A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		740FA3451918E608001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +537,7 @@
 				740FA3471918E608001C6A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
