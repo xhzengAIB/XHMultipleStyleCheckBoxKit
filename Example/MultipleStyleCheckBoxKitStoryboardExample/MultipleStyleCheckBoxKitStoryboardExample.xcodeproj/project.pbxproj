@@ -426,6 +426,7 @@
 				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitStoryboardExample/MultipleStyleCheckBoxKitStoryboardExample-Prefix.pch";
 				INFOPLIST_FILE = "MultipleStyleCheckBoxKitStoryboardExample/MultipleStyleCheckBoxKitStoryboardExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +445,7 @@
 				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitStoryboardExample/MultipleStyleCheckBoxKitStoryboardExample-Prefix.pch";
 				INFOPLIST_FILE = "MultipleStyleCheckBoxKitStoryboardExample/MultipleStyleCheckBoxKitStoryboardExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
