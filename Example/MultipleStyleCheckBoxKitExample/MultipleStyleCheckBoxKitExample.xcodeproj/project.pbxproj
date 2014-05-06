@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740FA2971918E5B7001C6A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA2961918E5B7001C6A75 /* Foundation.framework */; };
+		740FA2991918E5B7001C6A75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA2981918E5B7001C6A75 /* CoreGraphics.framework */; };
+		740FA29B1918E5B7001C6A75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA29A1918E5B7001C6A75 /* UIKit.framework */; };
+		740FA2A11918E5B7001C6A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740FA29F1918E5B7001C6A75 /* InfoPlist.strings */; };
+		740FA2A31918E5B7001C6A75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA2A21918E5B7001C6A75 /* main.m */; };
+		740FA2A71918E5B7001C6A75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA2A61918E5B7001C6A75 /* AppDelegate.m */; };
+		740FA2B01918E5B7001C6A75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA2AF1918E5B7001C6A75 /* ViewController.m */; };
+		740FA2B21918E5B7001C6A75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740FA2B11918E5B7001C6A75 /* Images.xcassets */; };
+		740FA2B91918E5B7001C6A75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA2B81918E5B7001C6A75 /* XCTest.framework */; };
+		740FA2BA1918E5B7001C6A75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA2961918E5B7001C6A75 /* Foundation.framework */; };
+		740FA2BB1918E5B7001C6A75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA29A1918E5B7001C6A75 /* UIKit.framework */; };
+		740FA2C31918E5B7001C6A75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 740FA2C11918E5B7001C6A75 /* InfoPlist.strings */; };
+		740FA2C51918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740FA2C41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m */; };
+		740FA3501918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740FA34F1918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		740FA2BC1918E5B7001C6A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740FA28B1918E5B7001C6A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740FA2921918E5B7001C6A75;
+			remoteInfo = MultipleStyleCheckBoxKitExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740FA2931918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleStyleCheckBoxKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740FA2961918E5B7001C6A75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		740FA2981918E5B7001C6A75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		740FA29A1918E5B7001C6A75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		740FA29E1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleStyleCheckBoxKitExample-Info.plist"; sourceTree = "<group>"; };
+		740FA2A01918E5B7001C6A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		740FA2A21918E5B7001C6A75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		740FA2A41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleStyleCheckBoxKitExample-Prefix.pch"; sourceTree = "<group>"; };
+		740FA2A51918E5B7001C6A75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		740FA2A61918E5B7001C6A75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		740FA2AE1918E5B7001C6A75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		740FA2AF1918E5B7001C6A75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		740FA2B11918E5B7001C6A75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		740FA2B71918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleStyleCheckBoxKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740FA2B81918E5B7001C6A75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		740FA2C01918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleStyleCheckBoxKitExampleTests-Info.plist"; sourceTree = "<group>"; };
+		740FA2C21918E5B7001C6A75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		740FA2C41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleStyleCheckBoxKitExampleTests.m; sourceTree = "<group>"; };
+		740FA34F1918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipleStyleCheckBoxKit.framework; path = "../../../../../../../Users/qtone-1/Library/Developer/Xcode/DerivedData/MultipleStyleCheckBoxKitWorkspace-cvqmjyvbojhdzidrljcxpgpedesr/Build/Products/Release-iphoneos/MultipleStyleCheckBoxKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740FA2901918E5B7001C6A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FA2991918E5B7001C6A75 /* CoreGraphics.framework in Frameworks */,
+				740FA29B1918E5B7001C6A75 /* UIKit.framework in Frameworks */,
+				740FA3501918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework in Frameworks */,
+				740FA2971918E5B7001C6A75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740FA2B41918E5B7001C6A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FA2B91918E5B7001C6A75 /* XCTest.framework in Frameworks */,
+				740FA2BB1918E5B7001C6A75 /* UIKit.framework in Frameworks */,
+				740FA2BA1918E5B7001C6A75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740FA28A1918E5B7001C6A75 = {
+			isa = PBXGroup;
+			children = (
+				740FA29C1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample */,
+				740FA2BE1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests */,
+				740FA2951918E5B7001C6A75 /* Frameworks */,
+				740FA2941918E5B7001C6A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740FA2941918E5B7001C6A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740FA2931918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample.app */,
+				740FA2B71918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740FA2951918E5B7001C6A75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				740FA2961918E5B7001C6A75 /* Foundation.framework */,
+				740FA2981918E5B7001C6A75 /* CoreGraphics.framework */,
+				740FA29A1918E5B7001C6A75 /* UIKit.framework */,
+				740FA2B81918E5B7001C6A75 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		740FA29C1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				740FA34E1918E6B0001C6A75 /* Vendor */,
+				740FA2A51918E5B7001C6A75 /* AppDelegate.h */,
+				740FA2A61918E5B7001C6A75 /* AppDelegate.m */,
+				740FA2AE1918E5B7001C6A75 /* ViewController.h */,
+				740FA2AF1918E5B7001C6A75 /* ViewController.m */,
+				740FA2B11918E5B7001C6A75 /* Images.xcassets */,
+				740FA29D1918E5B7001C6A75 /* Supporting Files */,
+			);
+			path = MultipleStyleCheckBoxKitExample;
+			sourceTree = "<group>";
+		};
+		740FA29D1918E5B7001C6A75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				740FA29E1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample-Info.plist */,
+				740FA29F1918E5B7001C6A75 /* InfoPlist.strings */,
+				740FA2A21918E5B7001C6A75 /* main.m */,
+				740FA2A41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		740FA2BE1918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				740FA2C41918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m */,
+				740FA2BF1918E5B7001C6A75 /* Supporting Files */,
+			);
+			path = MultipleStyleCheckBoxKitExampleTests;
+			sourceTree = "<group>";
+		};
+		740FA2BF1918E5B7001C6A75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				740FA2C01918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests-Info.plist */,
+				740FA2C11918E5B7001C6A75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		740FA34E1918E6B0001C6A75 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				740FA34F1918E6B9001C6A75 /* MultipleStyleCheckBoxKit.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740FA2921918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740FA2C81918E5B7001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitExample" */;
+			buildPhases = (
+				740FA28F1918E5B7001C6A75 /* Sources */,
+				740FA2901918E5B7001C6A75 /* Frameworks */,
+				740FA2911918E5B7001C6A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleStyleCheckBoxKitExample;
+			productName = MultipleStyleCheckBoxKitExample;
+			productReference = 740FA2931918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740FA2B61918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740FA2CB1918E5B7001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitExampleTests" */;
+			buildPhases = (
+				740FA2B31918E5B7001C6A75 /* Sources */,
+				740FA2B41918E5B7001C6A75 /* Frameworks */,
+				740FA2B51918E5B7001C6A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740FA2BD1918E5B7001C6A75 /* PBXTargetDependency */,
+			);
+			name = MultipleStyleCheckBoxKitExampleTests;
+			productName = MultipleStyleCheckBoxKitExampleTests;
+			productReference = 740FA2B71918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740FA28B1918E5B7001C6A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "曾宪华 开发团队(http://iyilunba.com ) 本人QQ:543413507 本人QQ群（142557668）.";
+				TargetAttributes = {
+					740FA2B61918E5B7001C6A75 = {
+						TestTargetID = 740FA2921918E5B7001C6A75;
+					};
+				};
+			};
+			buildConfigurationList = 740FA28E1918E5B7001C6A75 /* Build configuration list for PBXProject "MultipleStyleCheckBoxKitExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740FA28A1918E5B7001C6A75;
+			productRefGroup = 740FA2941918E5B7001C6A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740FA2921918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample */,
+				740FA2B61918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740FA2911918E5B7001C6A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FA2B21918E5B7001C6A75 /* Images.xcassets in Resources */,
+				740FA2A11918E5B7001C6A75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740FA2B51918E5B7001C6A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FA2C31918E5B7001C6A75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740FA28F1918E5B7001C6A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FA2B01918E5B7001C6A75 /* ViewController.m in Sources */,
+				740FA2A71918E5B7001C6A75 /* AppDelegate.m in Sources */,
+				740FA2A31918E5B7001C6A75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740FA2B31918E5B7001C6A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740FA2C51918E5B7001C6A75 /* MultipleStyleCheckBoxKitExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		740FA2BD1918E5B7001C6A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740FA2921918E5B7001C6A75 /* MultipleStyleCheckBoxKitExample */;
+			targetProxy = 740FA2BC1918E5B7001C6A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		740FA29F1918E5B7001C6A75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740FA2A01918E5B7001C6A75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		740FA2C11918E5B7001C6A75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740FA2C21918E5B7001C6A75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740FA2C61918E5B7001C6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		740FA2C71918E5B7001C6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740FA2C91918E5B7001C6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MultipleStyleCheckBoxKitWorkspace-cvqmjyvbojhdzidrljcxpgpedesr/Build/Products/Release-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Prefix.pch";
+				INFOPLIST_FILE = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		740FA2CA1918E5B7001C6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MultipleStyleCheckBoxKitWorkspace-cvqmjyvbojhdzidrljcxpgpedesr/Build/Products/Release-iphoneos",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Prefix.pch";
+				INFOPLIST_FILE = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		740FA2CC1918E5B7001C6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipleStyleCheckBoxKitExample.app/MultipleStyleCheckBoxKitExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultipleStyleCheckBoxKitExampleTests/MultipleStyleCheckBoxKitExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		740FA2CD1918E5B7001C6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipleStyleCheckBoxKitExample.app/MultipleStyleCheckBoxKitExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample-Prefix.pch";
+				INFOPLIST_FILE = "MultipleStyleCheckBoxKitExampleTests/MultipleStyleCheckBoxKitExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740FA28E1918E5B7001C6A75 /* Build configuration list for PBXProject "MultipleStyleCheckBoxKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740FA2C61918E5B7001C6A75 /* Debug */,
+				740FA2C71918E5B7001C6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740FA2C81918E5B7001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740FA2C91918E5B7001C6A75 /* Debug */,
+				740FA2CA1918E5B7001C6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		740FA2CB1918E5B7001C6A75 /* Build configuration list for PBXNativeTarget "MultipleStyleCheckBoxKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740FA2CC1918E5B7001C6A75 /* Debug */,
+				740FA2CD1918E5B7001C6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740FA28B1918E5B7001C6A75 /* Project object */;
+}

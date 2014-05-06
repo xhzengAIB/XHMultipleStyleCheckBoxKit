@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../MultipleStyleCheckBoxKit/MultipleStyleCheckBoxKit/MultipleStyleCheckBoxKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MultipleStyleCheckBoxKitStoryboardExample/MultipleStyleCheckBoxKitStoryboardExample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MultipleStyleCheckBoxKitExample/MultipleStyleCheckBoxKitExample.xcodeproj">
+   </FileRef>
+</Workspace>
