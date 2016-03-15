@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5DE9773048DA7E5BDB5C3FF9FE1F2C4314B10590",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F48CC956-0D06-4FC4-B3B3-0F40B6F6E00A" : 0,
+    "5DE9773048DA7E5BDB5C3FF9FE1F2C4314B10590" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E483896-EC4F-4F32-AE8D-D07E685F2C4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F48CC956-0D06-4FC4-B3B3-0F40B6F6E00A" : "MultipleStyleCheckBoxKit",
+    "5DE9773048DA7E5BDB5C3FF9FE1F2C4314B10590" : "XHMultipleStyleCheckBoxKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MultipleStyleCheckBoxKitWorkspace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/MultipleStyleCheckBoxKitWorkspace.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xhzengAIB\/XHMultipleStyleCheckBoxKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DE9773048DA7E5BDB5C3FF9FE1F2C4314B10590"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xhzengAIB\/MultipleStyleCheckBoxKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F48CC956-0D06-4FC4-B3B3-0F40B6F6E00A"
+    }
+  ]
+}
